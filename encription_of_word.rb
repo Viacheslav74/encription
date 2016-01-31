@@ -42,6 +42,20 @@ case number
     puts "Недопустимая операция"
 end
 
+#Для создания ветки воспользуйтесь командами git branch
 
+#git branch sha2
+#Чтобы переключаться между ветками, воспользуйтесь командой git checkout
+
+#git checkout sha2
+#git checkout master
+
+
+# Чтобы сделать ветку sha2 на удаленном репозитории
+# делаем коммитветки sha2 : git commit -am "added SHA2"
+# отправляем коммит и делаем ветку sha2 на githab: git push -u origin sha2
+#Чтобы слить, например, ветку sha2 в ветку master, воспользуйтесь командой git merge (находясь в ветке master):
+
+#   git merge sha2
 
 
